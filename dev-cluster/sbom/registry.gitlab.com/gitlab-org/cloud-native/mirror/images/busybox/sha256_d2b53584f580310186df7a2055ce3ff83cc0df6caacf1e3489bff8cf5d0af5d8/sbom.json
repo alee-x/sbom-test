@@ -1,0 +1,47 @@
+{
+ "artifacts": [],
+ "artifactRelationships": [],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "/tmp/sha256_d2b53584f580310186df7a2055ce3ff83cc0df6caacf1e3489bff8cf5d0af5d8.tar.gz",
+   "imageID": "sha256:1a80408de790c0b1075d0a7e23ff7da78b311f85f36ea10098e4a6184c200964",
+   "manifestDigest": "sha256:f94c0b8416ddde1401f13dba9b0b1b93ce0574dbf5aba476ded33e93a28f3682",
+   "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+   "tags": [
+    "registry.gitlab.com/gitlab-org/cloud-native/mirror/images/busybox:i-was-a-digest"
+   ],
+   "imageSize": 1239756,
+   "layers": [
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:eb6b01329ebe73e209e44a616a0e16c2b8e91de6f719df9c35e6cdadadbe5965",
+     "size": 1239756
+    }
+   ],
+   "manifest": "eyJzY2hlbWFWZXJzaW9uIjoyLCJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmRpc3RyaWJ1dGlvbi5tYW5pZmVzdC52Mitqc29uIiwiY29uZmlnIjp7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuY29udGFpbmVyLmltYWdlLnYxK2pzb24iLCJzaXplIjoxNDU3LCJkaWdlc3QiOiJzaGEyNTY6MWE4MDQwOGRlNzkwYzBiMTA3NWQwYTdlMjNmZjdkYTc4YjMxMWY4NWYzNmVhMTAwOThlNGE2MTg0YzIwMDk2NCJ9LCJsYXllcnMiOlt7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjo3NzI4MTIsImRpZ2VzdCI6InNoYTI1NjplYjZiMDEzMjllYmU3M2UyMDllNDRhNjE2YTBlMTZjMmI4ZTkxZGU2ZjcxOWRmOWMzNWU2Y2RhZGFkYmU1OTY1In1dfQ==",
+   "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImNvbmZpZyI6eyJIb3N0bmFtZSI6IiIsIkRvbWFpbm5hbWUiOiIiLCJVc2VyIjoiIiwiQXR0YWNoU3RkaW4iOmZhbHNlLCJBdHRhY2hTdGRvdXQiOmZhbHNlLCJBdHRhY2hTdGRlcnIiOmZhbHNlLCJUdHkiOmZhbHNlLCJPcGVuU3RkaW4iOmZhbHNlLCJTdGRpbk9uY2UiOmZhbHNlLCJFbnYiOlsiUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4iXSwiQ21kIjpbInNoIl0sIkltYWdlIjoic2hhMjU2Ojg0ODZkNzI5ZDlhZDViMDE2MjFjNGFlNDhlMGJhZjZkY2IyZmUzOWI4Njg0NmU2ZmUzOTE3YzVjZDkyOWRlNGYiLCJWb2x1bWVzIjpudWxsLCJXb3JraW5nRGlyIjoiIiwiRW50cnlwb2ludCI6bnVsbCwiT25CdWlsZCI6bnVsbCwiTGFiZWxzIjpudWxsfSwiY29udGFpbmVyIjoiZmY1MWU5ZGUyMGZkOGY4MjVlZDIxY2VhMjRmMDY2NjM0Nzc4NTg3MDljMzBlYzY0ZWU3OTBjODZkYjYxOTc0MyIsImNvbnRhaW5lcl9jb25maWciOnsiSG9zdG5hbWUiOiJmZjUxZTlkZTIwZmQiLCJEb21haW5uYW1lIjoiIiwiVXNlciI6IiIsIkF0dGFjaFN0ZGluIjpmYWxzZSwiQXR0YWNoU3Rkb3V0IjpmYWxzZSwiQXR0YWNoU3RkZXJyIjpmYWxzZSwiVHR5IjpmYWxzZSwiT3BlblN0ZGluIjpmYWxzZSwiU3RkaW5PbmNlIjpmYWxzZSwiRW52IjpbIlBBVEg9L3Vzci9sb2NhbC9zYmluOi91c3IvbG9jYWwvYmluOi91c3Ivc2JpbjovdXNyL2Jpbjovc2JpbjovYmluIl0sIkNtZCI6WyIvYmluL3NoIiwiLWMiLCIjKG5vcCkgIiwiQ01EIFtcInNoXCJdIl0sIkltYWdlIjoic2hhMjU2Ojg0ODZkNzI5ZDlhZDViMDE2MjFjNGFlNDhlMGJhZjZkY2IyZmUzOWI4Njg0NmU2ZmUzOTE3YzVjZDkyOWRlNGYiLCJWb2x1bWVzIjpudWxsLCJXb3JraW5nRGlyIjoiIiwiRW50cnlwb2ludCI6bnVsbCwiT25CdWlsZCI6bnVsbCwiTGFiZWxzIjp7fX0sImNyZWF0ZWQiOiIyMDIyLTA0LTE0VDAyOjI5OjM2LjUxNzU2NjQ2MVoiLCJkb2NrZXJfdmVyc2lvbiI6IjIwLjEwLjEyIiwiaGlzdG9yeSI6W3siY3JlYXRlZCI6IjIwMjItMDQtMTRUMDI6Mjk6MzYuMzY4MTkzMDg5WiIsImNyZWF0ZWRfYnkiOiIvYmluL3NoIC1jICMobm9wKSBBREQgZmlsZToxYzhkZDRhOTdlNjkwNTA2ZTJjOTRmN2RlZThlMjRjMDYxMmMwZjIyNzczNmQ2MjU5ZTUwNDVmOWQxZWZjZTAyIGluIC8gIn0seyJjcmVhdGVkIjoiMjAyMi0wNC0xNFQwMjoyOTozNi41MTc1NjY0NjFaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgIyhub3ApICBDTUQgW1wic2hcIl0iLCJlbXB0eV9sYXllciI6dHJ1ZX1dLCJvcyI6ImxpbnV4Iiwicm9vdGZzIjp7InR5cGUiOiJsYXllcnMiLCJkaWZmX2lkcyI6WyJzaGEyNTY6ZWI2YjAxMzI5ZWJlNzNlMjA5ZTQ0YTYxNmEwZTE2YzJiOGU5MWRlNmY3MTlkZjljMzVlNmNkYWRhZGJlNTk2NSJdfX0=",
+   "repoDigests": [],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {
+  "prettyName": "BusyBox v1.34.1",
+  "name": "busybox",
+  "id": "busybox",
+  "idLike": [
+   "busybox"
+  ],
+  "version": "1.34.1",
+  "versionID": "1.34.1"
+ },
+ "descriptor": {
+  "name": "syft",
+  "version": "v0.52.0"
+ },
+ "schema": {
+  "version": "3.3.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.3.1.json"
+ }
+}
