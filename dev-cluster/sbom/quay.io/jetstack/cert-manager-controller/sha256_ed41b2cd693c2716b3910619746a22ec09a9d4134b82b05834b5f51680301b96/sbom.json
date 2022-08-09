@@ -1,0 +1,169 @@
+{
+ "artifacts": [
+  {
+   "id": "b6f37f4afa87baa3",
+   "name": "base-files",
+   "version": "10.3+deb10u10",
+   "type": "deb",
+   "foundBy": "dpkgdb-cataloger",
+   "locations": [
+    {
+     "path": "/usr/share/doc/base-files/copyright",
+     "layerID": "sha256:16679402dc206c982b5552ab8de7d898547100e5468be29d4f67d393c0eadfdb"
+    },
+    {
+     "path": "/var/lib/dpkg/status.d/base",
+     "layerID": "sha256:16679402dc206c982b5552ab8de7d898547100e5468be29d4f67d393c0eadfdb"
+    }
+   ],
+   "licenses": [
+    "GPL"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:base-files:base-files:10.3\\+deb10u10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:base-files:base_files:10.3\\+deb10u10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:base_files:base-files:10.3\\+deb10u10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:base_files:base_files:10.3\\+deb10u10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:base:base-files:10.3\\+deb10u10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:base:base_files:10.3\\+deb10u10:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:deb/debian/base-files@10.3+deb10u10?arch=amd64&distro=debian-10",
+   "metadataType": "DpkgMetadata",
+   "metadata": {
+    "package": "base-files",
+    "source": "",
+    "version": "10.3+deb10u10",
+    "sourceVersion": "",
+    "architecture": "amd64",
+    "maintainer": "Santiago Vila <sanvila@debian.org>",
+    "installedSize": 340,
+    "files": []
+   }
+  },
+  {
+   "id": "daeceb2be1ffa05e",
+   "name": "netbase",
+   "version": "5.6",
+   "type": "deb",
+   "foundBy": "dpkgdb-cataloger",
+   "locations": [
+    {
+     "path": "/usr/share/doc/netbase/copyright",
+     "layerID": "sha256:16679402dc206c982b5552ab8de7d898547100e5468be29d4f67d393c0eadfdb"
+    },
+    {
+     "path": "/var/lib/dpkg/status.d/netbase",
+     "layerID": "sha256:16679402dc206c982b5552ab8de7d898547100e5468be29d4f67d393c0eadfdb"
+    }
+   ],
+   "licenses": [
+    "GPL-2"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:netbase:netbase:5.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:deb/debian/netbase@5.6?arch=all&distro=debian-10",
+   "metadataType": "DpkgMetadata",
+   "metadata": {
+    "package": "netbase",
+    "source": "",
+    "version": "5.6",
+    "sourceVersion": "",
+    "architecture": "all",
+    "maintainer": "Marco d'Itri <md@linux.it>",
+    "installedSize": 44,
+    "files": []
+   }
+  },
+  {
+   "id": "6b5e82bfedd3aa6f",
+   "name": "tzdata",
+   "version": "2021a-0+deb10u1",
+   "type": "deb",
+   "foundBy": "dpkgdb-cataloger",
+   "locations": [
+    {
+     "path": "/usr/share/doc/tzdata/copyright",
+     "layerID": "sha256:16679402dc206c982b5552ab8de7d898547100e5468be29d4f67d393c0eadfdb"
+    },
+    {
+     "path": "/var/lib/dpkg/status.d/tzdata",
+     "layerID": "sha256:16679402dc206c982b5552ab8de7d898547100e5468be29d4f67d393c0eadfdb"
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:tzdata:tzdata:2021a-0\\+deb10u1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:deb/debian/tzdata@2021a-0+deb10u1?arch=all&distro=debian-10",
+   "metadataType": "DpkgMetadata",
+   "metadata": {
+    "package": "tzdata",
+    "source": "",
+    "version": "2021a-0+deb10u1",
+    "sourceVersion": "",
+    "architecture": "all",
+    "maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
+    "installedSize": 3040,
+    "files": []
+   }
+  }
+ ],
+ "artifactRelationships": [],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "/tmp/sha256_ed41b2cd693c2716b3910619746a22ec09a9d4134b82b05834b5f51680301b96.tar.gz",
+   "imageID": "sha256:5b19c646aa02894b23586ae6a27e4d64cc8b9a25e2570371be98f4490eaff9e8",
+   "manifestDigest": "sha256:8569502d0190a69b91f73e69c68f3be09993c16d9954e79aa42d23515359d39e",
+   "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+   "tags": [
+    "quay.io/jetstack/cert-manager-controller:i-was-a-digest"
+   ],
+   "imageSize": 63322625,
+   "layers": [
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:16679402dc206c982b5552ab8de7d898547100e5468be29d4f67d393c0eadfdb",
+     "size": 1802819
+    },
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:be7778c8cb7ce0100f82d1f1c22006cd09760967e65f756c322377a8fe4831b5",
+     "size": 60176670
+    },
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:32f5ce2e4f4889ce2f897f373d68bbb7cb4e1b83e344c274d59fd01bdfdae4c5",
+     "size": 1343136
+    }
+   ],
+   "manifest": "eyJzY2hlbWFWZXJzaW9uIjoyLCJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmRpc3RyaWJ1dGlvbi5tYW5pZmVzdC52Mitqc29uIiwiY29uZmlnIjp7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuY29udGFpbmVyLmltYWdlLnYxK2pzb24iLCJzaXplIjo4OTgsImRpZ2VzdCI6InNoYTI1Njo1YjE5YzY0NmFhMDI4OTRiMjM1ODZhZTZhMjdlNGQ2NGNjOGI5YTI1ZTI1NzAzNzFiZTk4ZjQ0OTBlYWZmOWU4In0sImxheWVycyI6W3sibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjY1NzY5NiwiZGlnZXN0Ijoic2hhMjU2OjE2Njc5NDAyZGMyMDZjOTgyYjU1NTJhYjhkZTdkODk4NTQ3MTAwZTU0NjhiZTI5ZDRmNjdkMzkzYzBlYWRmZGIifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjoxNTg0ODc1NCwiZGlnZXN0Ijoic2hhMjU2OmJlNzc3OGM4Y2I3Y2UwMTAwZjgyZDFmMWMyMjAwNmNkMDk3NjA5NjdlNjVmNzU2YzMyMjM3N2E4ZmU0ODMxYjUifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjo2MjE0OSwiZGlnZXN0Ijoic2hhMjU2OjMyZjVjZTJlNGY0ODg5Y2UyZjg5N2YzNzNkNjhiYmI3Y2I0ZTFiODNlMzQ0YzI3NGQ1OWZkMDFiZGZkYWU0YzUifV19",
+   "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImF1dGhvciI6IkJhemVsIiwiY3JlYXRlZCI6IjIwMjEtMDktMzBUMTY6MTg6NDJaIiwiaGlzdG9yeSI6W3siYXV0aG9yIjoiQmF6ZWwiLCJjcmVhdGVkIjoiMjAyMS0wOS0zMFQxNjoxODo0MloiLCJjcmVhdGVkX2J5IjoiYmF6ZWwgYnVpbGQgLi4uIn0seyJhdXRob3IiOiJCYXplbCIsImNyZWF0ZWQiOiIxOTcwLTAxLTAxVDAwOjAwOjAwWiIsImNyZWF0ZWRfYnkiOiJiYXplbCBidWlsZCAuLi4ifSx7ImF1dGhvciI6IkJhemVsIiwiY3JlYXRlZCI6IjE5NzAtMDEtMDFUMDA6MDA6MDBaIiwiY3JlYXRlZF9ieSI6ImJhemVsIGJ1aWxkIC4uLiJ9XSwib3MiOiJsaW51eCIsInJvb3RmcyI6eyJ0eXBlIjoibGF5ZXJzIiwiZGlmZl9pZHMiOlsic2hhMjU2OjE2Njc5NDAyZGMyMDZjOTgyYjU1NTJhYjhkZTdkODk4NTQ3MTAwZTU0NjhiZTI5ZDRmNjdkMzkzYzBlYWRmZGIiLCJzaGEyNTY6YmU3Nzc4YzhjYjdjZTAxMDBmODJkMWYxYzIyMDA2Y2QwOTc2MDk2N2U2NWY3NTZjMzIyMzc3YThmZTQ4MzFiNSIsInNoYTI1NjozMmY1Y2UyZTRmNDg4OWNlMmY4OTdmMzczZDY4YmJiN2NiNGUxYjgzZTM0NGMyNzRkNTlmZDAxYmRmZGFlNGM1Il19LCJjb25maWciOnsiRW50cnlwb2ludCI6WyIvYXBwL2NtZC9jb250cm9sbGVyL2NvbnRyb2xsZXIiXSwiRW52IjpbIlBBVEg9L3Vzci9sb2NhbC9zYmluOi91c3IvbG9jYWwvYmluOi91c3Ivc2JpbjovdXNyL2Jpbjovc2JpbjovYmluIiwiU1NMX0NFUlRfRklMRT0vZXRjL3NzbC9jZXJ0cy9jYS1jZXJ0aWZpY2F0ZXMuY3J0Il0sIlVzZXIiOiIxMDAwIiwiV29ya2luZ0RpciI6Ii9hcHAvY21kL2NvbnRyb2xsZXIvY29udHJvbGxlci5ydW5maWxlcy9jb21fZ2l0aHViX2pldHN0YWNrX2NlcnRfbWFuYWdlciJ9fQ==",
+   "repoDigests": [],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {
+  "prettyName": "Distroless",
+  "name": "Debian GNU/Linux",
+  "id": "debian",
+  "version": "Debian GNU/Linux 10 (buster)",
+  "versionID": "10",
+  "homeURL": "https://github.com/GoogleContainerTools/distroless",
+  "supportURL": "https://github.com/GoogleContainerTools/distroless/blob/master/README.md",
+  "bugReportURL": "https://github.com/GoogleContainerTools/distroless/issues/new"
+ },
+ "descriptor": {
+  "name": "syft",
+  "version": "v0.52.0"
+ },
+ "schema": {
+  "version": "3.3.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.3.1.json"
+ }
+}
