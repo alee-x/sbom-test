@@ -1,0 +1,38 @@
+{
+ "artifacts": [],
+ "artifactRelationships": [],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "/tmp/sha256_1ff6c18fbef2045af6b9c16bf034cc421a29027b800e4f9b68ae9b1cb3e9ae07.tar.gz",
+   "imageID": "sha256:ed210e3e4a5bae1237f1bb44d72a05a2f1e5c6bfe7a7e73da179e2534269c459",
+   "manifestDigest": "sha256:85e8b167d5ae630887e3f092152e1e5528f2af105ca208ee98bda914e6b3e0e3",
+   "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+   "tags": [
+    "k8s.gcr.io/pause:i-was-a-digest"
+   ],
+   "imageSize": 682696,
+   "layers": [
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:dee215ffc666313e1381d3e6e4299a4455503735b8df31c3fa161d2df50860a8",
+     "size": 682696
+    }
+   ],
+   "manifest": "eyJzY2hlbWFWZXJzaW9uIjoyLCJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmRpc3RyaWJ1dGlvbi5tYW5pZmVzdC52Mitqc29uIiwiY29uZmlnIjp7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuY29udGFpbmVyLmltYWdlLnYxK2pzb24iLCJzaXplIjo5MDEsImRpZ2VzdCI6InNoYTI1NjplZDIxMGUzZTRhNWJhZTEyMzdmMWJiNDRkNzJhMDVhMmYxZTVjNmJmZTdhN2U3M2RhMTc5ZTI1MzQyNjljNDU5In0sImxheWVycyI6W3sibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjI5NjUxNywiZGlnZXN0Ijoic2hhMjU2OmRlZTIxNWZmYzY2NjMxM2UxMzgxZDNlNmU0Mjk5YTQ0NTU1MDM3MzViOGRmMzFjM2ZhMTYxZDJkZjUwODYwYTgifV19",
+   "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImNvbmZpZyI6eyJVc2VyIjoiNjU1MzU6NjU1MzUiLCJFbnYiOlsiUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4iXSwiRW50cnlwb2ludCI6WyIvcGF1c2UiXSwiV29ya2luZ0RpciI6Ii8iLCJPbkJ1aWxkIjpudWxsfSwiY3JlYXRlZCI6IjIwMjEtMDMtMTZUMTM6MTY6NTcuODIyNjQ4NTY5WiIsImhpc3RvcnkiOlt7ImNyZWF0ZWQiOiIyMDIxLTAzLTE2VDEzOjE2OjU3LjgyMjY0ODU2OVoiLCJjcmVhdGVkX2J5IjoiQVJHIEFSQ0giLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDIxLTAzLTE2VDEzOjE2OjU3LjgyMjY0ODU2OVoiLCJjcmVhdGVkX2J5IjoiQUREIGJpbi9wYXVzZS1saW51eC1hbWQ2NCAvcGF1c2UgIyBidWlsZGtpdCIsImNvbW1lbnQiOiJidWlsZGtpdC5kb2NrZXJmaWxlLnYwIn0seyJjcmVhdGVkIjoiMjAyMS0wMy0xNlQxMzoxNjo1Ny44MjI2NDg1NjlaIiwiY3JlYXRlZF9ieSI6IlVTRVIgNjU1MzU6NjU1MzUiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDIxLTAzLTE2VDEzOjE2OjU3LjgyMjY0ODU2OVoiLCJjcmVhdGVkX2J5IjoiRU5UUllQT0lOVCBbXCIvcGF1c2VcIl0iLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCIsImVtcHR5X2xheWVyIjp0cnVlfV0sIm9zIjoibGludXgiLCJyb290ZnMiOnsidHlwZSI6ImxheWVycyIsImRpZmZfaWRzIjpbInNoYTI1NjpkZWUyMTVmZmM2NjYzMTNlMTM4MWQzZTZlNDI5OWE0NDU1NTAzNzM1YjhkZjMxYzNmYTE2MWQyZGY1MDg2MGE4Il19fQ==",
+   "repoDigests": [],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "v0.52.0"
+ },
+ "schema": {
+  "version": "3.3.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.3.1.json"
+ }
+}
